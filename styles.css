@@ -1,0 +1,102 @@
+body {
+    background-color: #131313 ;
+    text-align: center;
+    
+    
+}
+.tableItem{
+    padding: 5px;
+    margin: 5px;
+}
+.linkButton{
+    padding: 10px 50px;
+    position: relative;
+    border: 2px solid rgb(255, 0, 242);
+    border-radius: 50px;
+    background: #ffffff00;
+    color: rgb(255, 0, 242);
+    font-size: 16px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+/* elements*/
+button{
+    padding: 10px 50px;
+    position: relative;
+    border: 2px solid rgb(255, 0, 242);
+    border-radius: 50px;
+    background: #ffffff00;
+    color: rgb(255, 0, 242);
+    font-size: 16px;
+    cursor: pointer;
+}
+.topBar{
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: normal; 
+    text-align: center;
+    text-decoration: none;
+    margin: 2%;
+}
+
+
+/* text sizes */
+.largeText{
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.normalPlusText{
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    font-size: 45px;
+    font-weight: normal;
+}
+.normalText{
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: normal;
+}
+.smalltext{
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: normal;
+}
+.smallertext{
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: normal;
+}
+.small-devidor{
+    width: 40%;
+    border: solid rgba(128, 128, 128, 0.438) 2px;
+    border-radius: 30px;
+}
+.devidor{
+    border-image: linear-gradient(to left,blue,red)1 ;
+    border-width: 3px;
+}
+.removeRow{
+    padding: 10px 10px;
+    position: relative;
+    border: 2px solid rgb(255, 0, 242);
+    border-radius: 50px;
+    background: #ffffff00;
+    color: rgb(255, 0, 242);
+    font-size: 16px;
+    cursor: pointer;
+
+}

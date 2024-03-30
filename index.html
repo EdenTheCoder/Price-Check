@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>price checker
+    </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div style="display: inline-flex; text-align: center;">
+        <a href="https://edenthecoder.github.io/index.html" class="topBar">home<a>
+        <a href="https://edenthecoder.github.io/contact.html" class="topBar">contact</a>
+        <a href="https://edenthecoder.github.io/MyProjects.html" class="topBar">Projects</a>
+    </div>
+    <hr class="devidor">
+    <h1 class="normalPlusText">price checker By Eden</h1>
+    <hr class="devidor">
+    <input type="text" style="background-color: black; margin: 5px; width: 90%;" id="itemName" placeholder="Item Name" class="smallertext"><br>
+    <input type="number" style="background-color: black; margin: 5px; width: 90%;" id="quantity" placeholder="quantity" class="smallertext"><br>
+    <input type="number" style="background-color: black; margin: 5px; width: 90%;" id="cost" placeholder="cost" class="smallertext"> <br>
+    <button id="addItem">Submit</button>
+    <table bgcolor="white" width="100%" id="table">
+        <tr bgcolor="black" align="center">
+            <th class="smallertext tableItem">item name</th>
+            <th class="smallertext tableItem">quantity</th>
+            <th class="smallertext tableItem">cost</th>
+            <td></td>
+       </tr>
+
+    </table>
+    <button id="checkPrice">Check price</button>
+    <h1 id="cheapestItem" class="smalltext">cheapest item is :</h1>
+    <script src="index.js"></script>
+</body>
+</html>
