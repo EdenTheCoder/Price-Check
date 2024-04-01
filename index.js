@@ -38,11 +38,12 @@ function checkThePrice() {
 	smallestPrice = Infinity;
 	costPerRow = {};
 	for (let i = 1; i < table.rows.length; i += 1) {
-		const cellsInRow = table.rows[i].cells;
-		costPerRow[i] = cellsInRow[1].innerText / cellsInRow[2].innerText;
+		let cellsInRow = table.rows[i].cells;
+		costPerRow[i] = cellsInRow[2].innerText / cellsInRow[1].innerText;
 		if (costPerRow[i] < smallestPrice) {
-			smallestPrice = costPerRow;
+			smallestPrice = costPerRow[i];
 			smallestPriceName = cellsInRow[0].innerText;
+			console.log(smallestPriceName);
 		}
 	}
 	console.log(smallestPriceName);
