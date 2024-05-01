@@ -23,14 +23,31 @@ a{
 }
 /* elements*/
 button{
-    padding: 10px 50px;
+    
+    margin: 5px 5px;
+    padding: 10px 100px;
     position: relative;
+    
     border: 2px solid rgb(255, 0, 242);
-    border-radius: 50px;
+    border-radius: 20px;
     background: #ffffff00;
     color: rgb(255, 0, 242);
     font-size: 16px;
     cursor: pointer;
+    font-weight: normal; 
+}
+button:hover{
+    transform: scale(0.95);
+    transition: 200ms;
+    color: rgb(255, 134, 249);
+    border-color: rgb(75, 40, 202);
+    z-index: 1;
+}
+button:active{
+    transform: scale(0.9);
+    transition: 100ms;
+    color: rgb(255, 78, 175);
+    border-color: rgb(75, 40, 202); 
 }
 .topBar{
     color: rgb(255, 255, 255);
