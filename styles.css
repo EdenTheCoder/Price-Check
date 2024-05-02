@@ -26,7 +26,7 @@ button{
     
     margin: 5px 5px;
     padding: 10px 100px;
-    position: relative;
+    transition: 200ms ease-in-out;
     
     border: 2px solid rgb(255, 0, 242);
     border-radius: 20px;
@@ -38,16 +38,14 @@ button{
 }
 button:hover{
     transform: scale(0.95);
-    transition: 200ms;
+    transition: 200ms ease-in-out;
     color: rgb(255, 134, 249);
     border-color: rgb(75, 40, 202);
     z-index: 1;
 }
 button:active{
     transform: scale(0.9);
-    transition: 100ms;
-    color: rgb(255, 78, 175);
-    border-color: rgb(75, 40, 202); 
+    transition: 100ms; 
 }
 .topBar{
     color: rgb(255, 255, 255);
