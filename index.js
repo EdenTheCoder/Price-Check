@@ -16,7 +16,7 @@ function addRow() {
 	if (inItemName.value == "" || inQuantity.value == "" || inCost.value == "") {
 		return;
 	}
-	table.innerHTML += `        <tr bgcolor="black" align="center">
+	table.innerText += `        <tr bgcolor="black" align="center">
     <td class="smallertext tableItem">${inItemName.value}</td>
     <td class="smallertext tableItem">${inQuantity.value}</td>
     <td class="smallertext tableItem">${inCost.value}</td>
